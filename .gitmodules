@@ -1,0 +1,3 @@
+[submodule "MPU-9250 Sensors Data Collect"]
+	path = MPU-9250 Sensors Data Collect
+	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git
