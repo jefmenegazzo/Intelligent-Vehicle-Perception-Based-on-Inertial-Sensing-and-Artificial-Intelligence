@@ -1,12 +1,5 @@
 <div align="center">
-
-<img 
-src="./IMG/logo.jpg"
-alt="MPU-9250"
-height="250"
-align="center"
-/>
-
+    <img src="./IMG/logo.jpg" alt="Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence" height="250" align="center"/>
 </div>
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
@@ -23,14 +16,14 @@ For the development of this project, we collect nine datasets with contextual va
 
 The project is currently active and we are developing new models. Below are results obtained with models already produced:
 
-- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](Road Surface Type Classification Based on Inertial Sensors and Machine Learning/README.md)
+- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](./Road Surface Type Classification Based on Inertial Sensors and Machine Learning/README.md)
     - In this research, we developed models for the road surface classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM) and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM) and hybrid LSTM-CNN.
 
 ## PVS - Passive Vehicular Sensors Dataset
 
 To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
 
-- [MPU-9250 Sensors Data Collect](MPU-9250 Sensors Data Collect): source-code used to manipulate the sensors in the data collection.
+- [MPU-9250 Sensors Data Collect](./MPU-9250 Sensors Data Collect): source-code used to manipulate the sensors in the data collection.
 
 - [MPU-9250 and GPS Raw Data Pre-Processing](MPU-9250 and GPS Raw Data Pre-Processing): source-codes of adjustments in the data of inertial sensors, combinating with GPS data and labeling.
 
@@ -38,15 +31,21 @@ To collect and preprocess the raw data that resulted in the PVS datasets, the fo
 
 For data collection, we use several passive approach sensors, detailed in the following table:
 
-![Sensor Hardware Network](IMG/sensor_hardware_network.png "Sensor Hardware Network")
+<div align="center">
+    <img src="./IMG/sensor_hardware_network.png" alt="Sensor Hardware Network" align="center"/>
+</div>
 
 All the hardware equipment was attached to the vehicle as shown in next figure. The camera was placed on the outside car roof (1), and the GPS receiver was placed internally on the dashboard (2). Two networks with MPU-9250 modules were distributed in the vehicle in order to get data coming from different points. Thus, each end of the front axle (right and left side) received one of the sensor networks, where a module was attached to the control arm (4), located below and close to the vehicle suspension; another module was placed above and close to the suspension, attached to the bodywork immediately above the tire (3); and another module was attached to the vehicle dashboard (2), inside the cabin.
 
-![Sensor Hardware Network Placement](IMG/car_sensors.png "Sensor Hardware Network Placement")
+<div align="center">
+    <img src="./IMG/car_sensors.png" alt="Sensor Hardware Network Placement" align="center"/>
+</div>
 
 The data were produced in three different vehicles, with three different drivers, in three different environments in which there are three different surface types, in addition to variations in conservation state and presence of obstacles and anomalies, such as speed bumps and potholes. The following figure details the data collection contexts.
 
-![Dataset Description](IMG/dataset_description.png "Dataset Description")
+<div align="center">
+    <img src="./IMG/dataset_description.png" alt="Dataset Description" align="center"/>
+</div>
 
 - **PVS 1**: Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 1 with Driver 1, on a 13.81 km route.
 
