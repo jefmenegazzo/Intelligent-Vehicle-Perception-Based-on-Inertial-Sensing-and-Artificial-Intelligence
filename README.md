@@ -1,14 +1,29 @@
-# Intelligent Vehicle Perception Based on Inertial Sensing 
+<div align="center">
+
+<img 
+src="./IMG/logo.jpg"
+alt="MPU-9250"
+height="250"
+align="center"
+/>
+
+</div>
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![GitHub](https://img.shields.io/github/license/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence)](LICENSE) 
+![GitHub issues](https://img.shields.io/github/issues/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence)
+
+# Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence
 
 This project aims to develop models for vehicular perception through inertial sensor signals. Vehicular perception comprises environment perception and proprioception. Environment perceptions aims to understand the environment outside the vehicle, recognizing the path features on which it travels. These features include transient events in the form of anomalies and obstacles, such as potholes, cracks, speed bumps, etc.; and persistent events, such as surface type, conservation condition and the road surface quality. On the other hand, proprioception aims to understand vehicular movements to identify their own behavior. These identifications can also be transient in the form of driving events, such as lane change, braking, skidding, aquaplaning, turning right or left; and persistent, as a safe or dangerous driving behavior profile.
 
 For the development of this project, we collect nine datasets with contextual variations using GPS, camera and inertial sensors, represented by accelerometers and gyroscopes. These data were produced in three different vehicles, with three different drivers, in three different environments. Below are described the perception models already developed and respective paper, the libraries used and the datasets produced.
 
-## Vehicular Perception Models
+## Vehicular Perception Research
 
 The project is currently active and we are developing new models. Below are results obtained with models already produced:
 
-- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](Road Surface Type Classification Based on Inertial Sensors and Machine Learning)
+- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](Road Surface Type Classification Based on Inertial Sensors and Machine Learning/README.md)
     - In this research, we developed models for the road surface classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM) and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM) and hybrid LSTM-CNN.
 
 ## PVS - Passive Vehicular Sensors Dataset
