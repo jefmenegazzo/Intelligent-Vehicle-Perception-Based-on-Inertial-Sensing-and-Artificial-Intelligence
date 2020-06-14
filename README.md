@@ -16,18 +16,17 @@ For the development of this project, we collect nine datasets with contextual va
 
 The project is currently active and we are developing new models. Below are results obtained with models already produced:
 
-- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](./Road Surface Type Classification Based on Inertial Sensors and Machine Learning/README.md)
-    - In this research, we developed models for the road surface classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM) and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM) and hybrid LSTM-CNN.
+- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-Based-on-Inertial-Sensors-and-Machine-Learning): in this research, we developed models for the road surface classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM) and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM) and hybrid LSTM-CNN.
 
 ## PVS - Passive Vehicular Sensors Dataset
 
 To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
 
-- [MPU-9250 Sensors Data Collect](./MPU-9250 Sensors Data Collect): source-code used to manipulate the sensors in the data collection.
+- [MPU-9250 Sensors Data Collect](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect): source-code used to manipulate the sensors in the data collection.
 
-- [MPU-9250 and GPS Raw Data Pre-Processing](MPU-9250 and GPS Raw Data Pre-Processing): source-codes of adjustments in the data of inertial sensors, combinating with GPS data and labeling.
+- [MPU-9250 and GPS Raw Data Pre-Processing](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing): source-codes of adjustments in the data of inertial sensors, combinating with GPS data and labeling.
 
-- [MPU-9250 Data Plot Creator](MPU-9250 Data Plot Creator): source-codes for creating videos with graphics of speed and signals from inertial sensors.
+- [MPU-9250 Data Plot Video Creator](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator/): source-codes for creating videos with graphics of speed and signals from inertial sensors.
 
 For data collection, we use several passive approach sensors, detailed in the following table:
 
@@ -65,7 +64,7 @@ The data were produced in three different vehicles, with three different drivers
 
 - **PVS 9**: Data sampled in the Fiat Palio vehicle, traveling through Scenario 3 with Driver 3, on a 10.74 km route.
 
-The nine datasets are available for download at this link: [PVS Datasets](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). Each dataset consists of the following files:
+The nine datasets are available for download at this link [PVS Datasets](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). Each dataset consists of the following files:
 
 - **dataset_gps.csv**: 
     - GPS dataset, including latitude, longitude, altitude, speed, accuracy, etc.
