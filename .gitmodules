@@ -4,3 +4,6 @@
 [submodule "MPU-9250 and GPS Raw Data Pre-Processing"]
 	path = MPU-9250 and GPS Raw Data Pre-Processing
 	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing.git
+[submodule "MPU-9250 Data Plot Video Creator"]
+	path = MPU-9250 Data Plot Video Creator
+	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator.git
