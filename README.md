@@ -89,3 +89,8 @@ The nine datasets are available for download at this link [PVS Datasets](https:/
 - **video_environment.mp4**: 
     - Video ambient.
 
+Below, an example of an ambient video side by side with the video of graphics of the signals from the sensors.
+
+<div align="center">
+    <img src="./IMG/video.png" alt="Sensor Hardware Network" align="center"/>
+</div>
