@@ -46,48 +46,33 @@ The data were produced in three different vehicles, with three different drivers
     <img src="./IMG/dataset_description.png" alt="Dataset Description" align="center"/>
 </div>
 
-- **PVS 1**: Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 1 with Driver 1, on a 13.81 km route.
-
-- **PVS 2**: Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 2 with Driver 1, on a 11.62 km route.
-
-- **PVS 3**: Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 3 with Driver 1, on a 10.72 km route.
-
-- **PVS 4**: Data sampled in the Fiat Bravo vehicle, traveling through Scenario 1 with Driver 2, on a 13.81 km route.
-
-- **PVS 5**: Data sampled in the Fiat Bravo vehicle, traveling through Scenario 2 with Driver 2, on a 11.63 km route.
-
-- **PVS 6**: Data sampled in the Fiat Bravo vehicle, traveling through Scenario 3 with Driver 2, on a 10.73 km route.
-
-- **PVS 7**: Data sampled in the Fiat Palio vehicle, traveling through Scenario 1 with Driver 3, on a 13.78 km route.
-
-- **PVS 8**: Data sampled in the Fiat Palio vehicle, traveling through Scenario 2 with Driver 3, on a 11.63 km route.
-
-- **PVS 9**: Data sampled in the Fiat Palio vehicle, traveling through Scenario 3 with Driver 3, on a 10.74 km route.
+| DataSet | Description                                                                                                     |
+|---------|-----------------------------------------------------------------------------------------------------------------|
+| PVS 1   | Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 1 with Driver 1, on a 13.81 km route |
+| PVS 2   | Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 2 with Driver 1, on a 11.62 km route |
+| PVS 3   | Data sampled in the Volkswagen Saveiro vehicle, traveling through Scenario 3 with Driver 1, on a 10.72 km route |
+| PVS 4   | Data sampled in the Fiat Bravo vehicle, traveling through Scenario 1 with Driver 2, on a 13.81 km route         |
+| PVS 5   | Data sampled in the Fiat Bravo vehicle, traveling through Scenario 2 with Driver 2, on a 11.63 km route         |
+| PVS 6   | Data sampled in the Fiat Bravo vehicle, traveling through Scenario 3 with Driver 2, on a 10.73 km route         |
+| PVS 7   | Data sampled in the Fiat Palio vehicle, traveling through Scenario 1 with Driver 3, on a 13.78 km route         |
+| PVS 8   | Data sampled in the Fiat Palio vehicle, traveling through Scenario 2 with Driver 3, on a 11.63 km route         |
+| PVS 9   | Data sampled in the Fiat Palio vehicle, traveling through Scenario 3 with Driver 3, on a 10.74 km route         |
 
 The nine datasets are available for download at this link [PVS Datasets](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). Each dataset consists of the following files:
 
-- **dataset_gps.csv**: 
-    - GPS dataset, including latitude, longitude, altitude, speed, accuracy, etc.
-- **dataset_gps_mpu_left.csv**: 
-    - Inertial sensor dataset on the left side of the vehicle, along with GPS data.
-- **dataset_gps_mpu_right.csv**: 
-    - Inertial sensor dataset on the right side of the vehicle, along with GPS data.
-- **dataset_labels.csv**: 
-    - Data labels for each sample data in the dataset. Currently has road surface type labels.
-- **dataset_mpu_left.csv**: 
-    - Inertial sensor dataset on the left side of the vehicle.
-- **dataset_mpu_right.csv**: 
-    - Inertial sensor dataset on the right side of the vehicle.
-- **dataset_settings_left.csv**: 
-    - Settings of the inertial sensors placed on the left side of the vehicle. Includes measurement range, resolution, etc.
-- **dataset_settings_right.csv**: 
-    - Settings of the inertial sensors placed on the right side of the vehicle. Includes measurement range, resolution, etc.
-- **map.html**: 
-    - Map of the data collection location.
-- **video_dataset_left.mp4**: 
-    - Video with the graphics of the signals of the inertial sensors.
-- **video_environment.mp4**: 
-    - Video ambient.
+| File                       | Description                                                                                                           |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| dataset_gps.csv            | GPS dataset, including latitude, longitude, altitude, speed, accuracy, etc                                            |
+| dataset_gps_mpu_left.csv   | Inertial sensor dataset on the left side of the vehicle, along with GPS data                                          |
+| dataset_gps_mpu_right.csv  | Inertial sensor dataset on the right side of the vehicle, along with GPS data                                         |
+| dataset_labels.csv         | Data labels for each sample data in the dataset. Currently has road surface type labels                               |
+| dataset_mpu_left.csv       | Inertial sensor dataset on the left side of the vehicle                                                               |
+| dataset_mpu_right.csv      | Inertial sensor dataset on the right side of the vehicle                                                              |
+| dataset_settings_left.csv  | Settings of the inertial sensors placed on the left side of the vehicle. Includes measurement range, resolution, etc  |
+| dataset_settings_right.csv | Settings of the inertial sensors placed on the right side of the vehicle. Includes measurement range, resolution, etc |
+| map.html                   | Map of the data collection location                                                                                   |
+| video_dataset_left.mp4     | Video with the graphics of the signals of the inertial sensors                                                        |
+| video_environment.mp4      | Video ambient                                                                                                         |
 
 Below, an example of an ambient video side by side with the video of graphics of the signals from the sensors.
 
