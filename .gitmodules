@@ -1,12 +1,12 @@
 [submodule "MPU-9250 Sensors Data Collect"]
 	path = MPU-9250 Sensors Data Collect
-url=MPU-9250 Sensors Data Collect
+	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git
 [submodule "MPU-9250 and GPS Raw Data Pre-Processing"]
 	path = MPU-9250 and GPS Raw Data Pre-Processing
-url=/MPU-9250 and GPS Raw Data Pre-Processing
+	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing.git
 [submodule "MPU-9250 Data Plot Video Creator"]
 	path = MPU-9250 Data Plot Video Creator
-url=MPU-9250 Data Plot Video Creator
+url=./MPU-9250 Sensors Data Collect
 [submodule "Road Surface Type Classification Based on Inertial Sensors and Machine Learning"]
 	path = Road Surface Type Classification Based on Inertial Sensors and Machine Learning
-url=Road Surface Type Classification Based on Inertial Sensors and Machine Learning
+	url = git@github.com:Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-Based-on-Inertial-Sensors-and-Machine-Learning.git
