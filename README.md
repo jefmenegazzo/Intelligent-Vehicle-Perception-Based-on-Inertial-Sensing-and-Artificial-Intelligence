@@ -83,7 +83,7 @@ Below, an example of an environment video side by side with the video of data pl
     <img src="./IMG/video.png" alt="Sensor Hardware Network" align="center"/>
 </div>
 
-# Data Class Labels
+## Data Class Labels
 
 The data classes available in the **dataset_labels.csv** file were built in one-hot-encoded form. We are currently developing new data class labels. The following are already available:
 
