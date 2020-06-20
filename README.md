@@ -94,3 +94,16 @@ Road Surface Type Labels:
 | Dirt Road        | land        |
 | Cobblestone Road | cobblestone |
 | Asphalt Road     | asphalt     |
+
+## Aplications
+
+The recognized and classified patterns of vehicular perception have wide applicability. Below are some applications that can use this information:
+
+- Autonomous Vehicles
+- Advanced Driver Assistance Systems
+- Advanced Public Transport Management Systems
+- Advanced Traffic Management Systems
+- Advanced Traveler Information Systems
+- Vehicle Black Box
+- Evaluation Software for Control and Quality Sssurance in Civil Engineering
+- Mobile Crowdsensing Applications
