@@ -8,27 +8,38 @@
 
 # Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence
 
-This project aims to develop models for vehicular perception through inertial sensor signals. Vehicular perception comprises exteroception and proprioception. Exteroception aims to understand the environment outside the vehicle, recognizing the path features on which it travels. These features include transient events in the form of anomalies and obstacles, such as potholes, cracks, speed bumps, etc.; and persistent events, such as surface type, conservation condition and the road surface quality. On the other hand, proprioception aims to understand vehicular movements to identify their own behavior. These identifications can also be transient in the form of driving events, such as lane change, braking, skidding, aquaplaning, turning right or left; and persistent, as a safe or dangerous driving behavior profile.
+This project aims to develop models for vehicular perception through inertial sensor signals and Artificial Intelligence. Vehicular perception comprises exteroception and proprioception. Exteroception aims to understand the environment outside the vehicle, recognizing the path features on which it travels. These features include transient events in the form of anomalies and obstacles, such as potholes, cracks, speed bumps, etc.; and persistent events, such as surface type, conservation condition and the road surface quality. On the other hand, proprioception aims to understand vehicular movements to identify their own behavior. These identifications can also be transient in the form of driving events, such as lane change, braking, skidding, aquaplaning, turning right or left; and persistent, as a safe or dangerous driving behavior profile.
 
-For the development of this project, we collect nine datasets with contextual variations using GPS, camera and inertial sensors, represented by accelerometers and gyroscopes. These data were produced in three different vehicles, driven by three different drivers, traveling through three different environments. To recognize and classify the vehicular perception patterns, we have developed several models based on Artificial Intelligence. Below we describe the datasets produced, models developed and the results obtained, together with article and source-codes.
+For the development of this project, we collect nine datasets with contextual variations using GPS, camera and inertial sensors, represented by accelerometers and gyroscopes. These data were produced in three different vehicles, driven by three different drivers, traveling through three different environments. To recognize and classify the vehicular perception patterns, we have developed several models based on Artificial Intelligence. Below we describe the datasets produced, models developed and the results obtained, together with published article and source-codes.
 
 ## Vehicular Perception Research
 
 The project is active and we are currently developing new models for new perception patterns recognition. Below are described the research progress. Published articles can also be found on the project's page at [Research Gate](https://www.researchgate.net/project/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence).
 
-- [Vehicular Perception and Proprioception Based on Inertial Sensing: a Systematic Review](https://www.researchgate.net/publication/328175534_Vehicular_Perception_and_Proprioception_Based_on_Inertial_Sensing_a_Systematic_Review): in this article, we describe the state-of-the-art of vehicle perception produced through inertial sensors and Artificial Intelligence techniques. 
+- [Vehicular Perception Based on Inertial Sensing: a Systematic Review](https://www.researchgate.net/publication/328175534_Vehicular_Perception_and_Proprioception_Based_on_Inertial_Sensing_a_Systematic_Review)
+    - In this article, we describe the state-of-the-art of vehicle perception produced through inertial sensors and Artificial Intelligence techniques. Through a literature review we compiled the data extracted from the selected studies and described each paper in detail and in chronological order of publication. 
 
-- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-Based-on-Inertial-Sensors-and-Machine-Learning): in this research, we developed models for the road surface classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM) and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM) and hybrid LSTM-CNN.
+- [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods]()
+    - In this article, we present a structured literature mapping of the state-of-the-art of vehicle perception produced through inertial sensors and Artificial Intelligence techniques. We present a structured, approach and technologies-oriented panorama of this field.
+
+- [Road Surface Type Classification Based on Inertial Sensors and Machine Learning: A Comparison Between Classical and Deep Machine Learning Approaches For Multi-Contextual Real-world Scenarios](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1)
+    - In this research, we developed models for the road surface type classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM) and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM) and hybrid LSTM-CNN. We analyzed in the time domain the data collected near and below the suspension in contextual variations, in addition to the impact of the data window.
+
+- [Multi-Contextual and Multi-Aspect Analysis for Road Surface Type Classification Through Inertial Sensors and Deep Learning](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-2)
+    - In this research, we developed models for the road surface type classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied Deep Learning techniques based on Convolutional Neural Network (CNN), Gated Recurrent Unit (GRU) and Long Short-Term Memory Network (LSTM). We analyzed various aspects, such as the influence of the vehicle data collection point, the analysis domain, the model input features, and the data window.
 
 ## PVS - Passive Vehicular Sensors Dataset
 
 The nine datasets collected are available for download at this link [PVS Datasets Download](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
 
-- [MPU-9250 Sensors Data Collect](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect): source-code used to manipulate the sensors in the data collection.
+- [MPU-9250 Sensors Data Collect](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect)
+    - Source-code used to manipulate the sensors in the data collection.
 
-- [MPU-9250 and GPS Raw Data Pre-Processing](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing): source-code used for initial adjustments to inertial sensor raw data, such as combining with GPS data and creating data class labels.
+- [MPU-9250 and GPS Raw Data Pre-Processing](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing)
+    - Source-code used for initial adjustments to inertial sensor raw data, such as combining with GPS data and creating data class labels.
 
-- [MPU-9250 Data Plot Video Creator](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator/): source-code for create videos with data plot of speed and signals from inertial sensors.
+- [MPU-9250 Data Plot Video Creator](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator/)
+    - Source-code for create videos with data plot of speed and signals from inertial sensors.
 
 For data collection, we use several passive approach sensors, detailed in the following table:
 
@@ -49,6 +60,8 @@ All the hardware equipment was attached to the vehicle as shown in next figure. 
 
 The data were produced in three different vehicles, with three different drivers, in three different environments in which there are three different surface types, in addition to variations in conservation state and presence of obstacles and anomalies, such as speed bumps and potholes. The following table details the data collection contexts.
 
+<center>
+
 | DataSet |       Vehicle      |  Driver  |  Scenario  | Distance |
 |:-------:|:------------------:|:--------:|:----------:|:--------:|
 | PVS 1   | Volkswagen Saveiro | Driver 1 | Scenario 1 | 13.81 km |
@@ -61,7 +74,11 @@ The data were produced in three different vehicles, with three different drivers
 | PVS 8   | Fiat Palio         | Driver 3 | Scenario 2 | 11.63 km |
 | PVS 9   | Fiat Palio         | Driver 3 | Scenario 3 | 10.74 km |
 
- Each dataset consists of the following files:
+</center>
+
+Each dataset consists of the following files:
+
+<center>
 
 | File                       | Description                                                                                                           |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +94,8 @@ The data were produced in three different vehicles, with three different drivers
 | video_dataset_left.mp4     | Video with data plot of inertial sensors signals and speed.                                                        |
 | video_environment.mp4      | Environment video.                                                                                                         |
 
+</center>
+
 Below, an example of an environment video side by side with the video of data ploted.
 
 <div align="center">
@@ -87,7 +106,9 @@ Below, an example of an environment video side by side with the video of data pl
 
 The data classes available in the **dataset_labels.csv** file were built in one-hot-encoded form. We are currently developing new data class labels. The following are already available:
 
-Road Surface Type Labels:
+- Road Surface Type Labels
+
+<center>
 
 |    Description   |    Label    |
 |:----------------:|:-----------:|
@@ -95,15 +116,24 @@ Road Surface Type Labels:
 | Cobblestone Road | cobblestone |
 | Asphalt Road     | asphalt     |
 
+</center>
+
+<br>
+
+<div align="center">
+    <img src="./IMG/surface_type.png" alt="Sensor Hardware Network" align="center"/>
+</div>
+
 ## Aplications
 
 The recognized and classified patterns of vehicular perception have wide applicability. Below are some applications that can use this information:
 
 - Autonomous Vehicles
+- Advanced Vehicle Control Systems
 - Advanced Driver Assistance Systems
 - Advanced Public Transport Management Systems
 - Advanced Traffic Management Systems
 - Advanced Traveler Information Systems
 - Vehicle Black Box
-- Evaluation Software for Control and Quality Sssurance in Civil Engineering
+- Evaluation Software for Control and Quality Assurance in Civil Engineering
 - Mobile Crowdsensing Applications
