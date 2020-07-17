@@ -137,3 +137,18 @@ The recognized and classified patterns of vehicular perception have wide applica
 - Vehicle Black Box
 - Evaluation Software for Control and Quality Assurance in Civil Engineering
 - Mobile Crowdsensing Applications
+
+## Citing PVS Datasets
+
+To cite PVS Datasets, use the reference below:
+
+```bibtex
+@misc{PVSDataset2020,
+  author = {Menegazzo, J. and von Wangenheim, A.},
+  title = {Passive Vehicular Sensors Datasets - PVS},
+  year = {2020},
+  publisher = {LAPIX/INCoD/UFSC},
+  journal = {INCoD Datasets Repository},
+  howpublished = {\url{https://codigos.ufsc.br/lapix/intelligent-vehicle-perception-based-on-inertial-sensing}}
+}
+```
