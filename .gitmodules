@@ -1,15 +1,15 @@
 [submodule "MPU-9250 Sensors Data Collect"]
 	path = MPU-9250 Sensors Data Collect
-	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git
+url=https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git
 [submodule "MPU-9250 and GPS Raw Data Pre-Processing"]
 	path = MPU-9250 and GPS Raw Data Pre-Processing
-	url = git@github.com:Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing.git
+url=https://github.com/Intelligent-Vehicle-Perception/MPU-9250-and-GPS-Raw-Data-Pre-Processing.git
 [submodule "MPU-9250 Data Plot Video Creator"]
 	path = MPU-9250 Data Plot Video Creator
 url=https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Data-Plot-Video-Creator.git
 [submodule "Road Surface Type Classification Based on Inertial Sensors and Machine Learning"]
 	path = Road Surface Type Classification Based on Inertial Sensors and Machine Learning
-url=git@github.com:Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1.git
+url=https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1.git
 [submodule "Multi-Contextual and Multi-Aspect Analysis for Road Surface Type Classification Through Inertial Sensors and Deep Learning"]
 	path = Multi-Contextual and Multi-Aspect Analysis for Road Surface Type Classification Through Inertial Sensors and Deep Learning
-	url = git@github.com:Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-2.git
+url=https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-2.git
