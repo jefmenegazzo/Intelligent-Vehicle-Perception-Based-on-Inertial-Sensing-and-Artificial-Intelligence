@@ -68,7 +68,7 @@ All the hardware equipment was attached to the vehicle as shown in next figure. 
 
 The data were produced in three different vehicles, with three different drivers, in three different environments in which there are three different surface types, in addition to variations in conservation state and presence of obstacles and anomalies, such as speed bumps and potholes. The following table details the data collection contexts.
 
-<center>
+<div align="center">
 
 | DataSet |       Vehicle      |  Driver  |  Scenario  | Distance |
 |:-------:|:------------------:|:--------:|:----------:|:--------:|
@@ -82,11 +82,11 @@ The data were produced in three different vehicles, with three different drivers
 | PVS 8   | Fiat Palio         | Driver 3 | Scenario 2 | 11.63 km |
 | PVS 9   | Fiat Palio         | Driver 3 | Scenario 3 | 10.74 km |
 
-</center>
+</div>
 
 Each dataset consists of the following files:
 
-<center>
+<div align="center">
 
 | File                       | Description                                                                                                           |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -102,7 +102,7 @@ Each dataset consists of the following files:
 | video_dataset_left.mp4     | Video with data plot of inertial sensors signals and speed.                                                        |
 | video_environment.mp4      | Environment video.                                                                                                         |
 
-</center>
+</div>
 
 Below, an example of an environment video side by side with the video of data ploted.
 
@@ -116,7 +116,7 @@ The data classes available in the **dataset_labels.csv** file were built in one-
 
 - **Road Surface Type Labels**
 
-<center>
+<div align="center">
 
 |    Description   |    Label    |
 |:----------------:|:-----------:|
@@ -124,7 +124,7 @@ The data classes available in the **dataset_labels.csv** file were built in one-
 | Cobblestone Road | cobblestone |
 | Asphalt Road     | asphalt     |
 
-</center>
+</div>
 
 <br>
 
