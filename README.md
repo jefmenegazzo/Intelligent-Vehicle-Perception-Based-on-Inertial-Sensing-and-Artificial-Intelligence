@@ -12,6 +12,14 @@ This project aims to develop models for vehicular perception through inertial se
 
 For the development of this project, we collect nine datasets with contextual variations using GPS, camera and inertial sensors, represented by accelerometers and gyroscopes. These data were produced in three different vehicles, driven by three different drivers, traveling through three different environments. To recognize and classify the vehicular perception patterns, we have developed several models based on Artificial Intelligence. Below we describe the datasets produced, models developed and the results obtained, together with published article and source-codes.
 
+## Table of Contents
+- [Vehicular Perception Research](#Vehicular-Perception-Research)
+- [Passive Vehicular Sensors Dataset](#Passive-Vehicular-Sensors-Dataset)
+- [Data Class Labels](#Data-Class-Labels)
+- [Aplications](#Aplications)
+- [How To Cite](#How-To-Cite)
+- [License](#License)
+
 ## Vehicular Perception Research
 
 The project is active and we are currently developing new models for new perception patterns recognition. Below are described the research progress. Published articles can also be found on the project's page at [Research Gate](https://www.researchgate.net/project/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence).
@@ -28,7 +36,7 @@ The project is active and we are currently developing new models for new percept
 - [Multi-Contextual and Multi-Aspect Analysis for Road Surface Type Classification Through Inertial Sensors and Deep Learning](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-2)
     - In this research, we developed models for the road surface type classification, classifying between segments of dirt, cobblestone and alphalt roads. We applied Deep Learning techniques based on Convolutional Neural Network (CNN), Gated Recurrent Unit (GRU) and Long Short-Term Memory Network (LSTM). We analyzed various aspects, such as the influence of the vehicle data collection point, the analysis domain, the model input features, and the data window.
 
-## PVS - Passive Vehicular Sensors Dataset
+## Passive Vehicular Sensors Dataset (PVS)
 
 The nine datasets collected are available for download at this link [PVS Datasets Download](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
 
@@ -106,7 +114,7 @@ Below, an example of an environment video side by side with the video of data pl
 
 The data classes available in the **dataset_labels.csv** file were built in one-hot-encoded form. We are currently developing new data class labels. The following are already available:
 
-- Road Surface Type Labels
+- **Road Surface Type Labels**
 
 <center>
 
@@ -138,7 +146,7 @@ The recognized and classified patterns of vehicular perception have wide applica
 - Evaluation Software for Control and Quality Assurance in Civil Engineering
 - Mobile Crowdsensing Applications
 
-## Citing PVS Datasets
+## How To Cite
 
 To cite PVS Datasets, use the reference below:
 
@@ -152,3 +160,7 @@ To cite PVS Datasets, use the reference below:
   howpublished = {\url{https://codigos.ufsc.br/lapix/intelligent-vehicle-perception-based-on-inertial-sensing}}
 }
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
