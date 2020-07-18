@@ -1,5 +1,7 @@
 <div align="center">
-    <img src="./IMG/logo.jpg" alt="Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence" height="250" align="center"/>
+    <a href="https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence">
+        <img src="./IMG/logo.jpg" alt="Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence" height="250" align="center"/>
+    </a>
 </div>
 
 <div align="center">
