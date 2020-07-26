@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence">
-        <img src="./IMG/logo.jpg" alt="Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence" height="250" align="center"/>
+        <img src="./IMG/logo.png" alt="Intelligent Vehicle Perception Based on Inertial Sensing and Artificial Intelligence" height="250" align="center"/>
     </a>
 </div>
 
@@ -51,7 +51,7 @@ The project is active and we are currently developing new models for new percept
 
 ## Passive Vehicular Sensors Dataset (PVS)
 
-The nine datasets collected are available for download at this link [PVS Datasets Download](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
+The nine datasets collected are available for download at this link [PVS Datasets Download in Arquivos UFSC](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid) and at this link [PVS Datasets Download in Kaggle](https://www.kaggle.com/jefmenegazzo/datasets). To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
 
 - [MPU-9250 Sensors Data Collect](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect)
     - Source-code used to manipulate the sensors in the data collection.
@@ -95,25 +95,26 @@ The data were produced in three different vehicles, with three different drivers
 
 Each dataset consists of the following files:
 
-| File                       | Description                                                                                                           |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| dataset_gps.csv            | GPS data, including latitude, longitude, altitude, speed, accuracy, etc.                                            |
+| File                       | Description                                                                                                            |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------|
+| dataset_gps.csv            | GPS data, including latitude, longitude, altitude, speed, accuracy, etc.                                               |
 | dataset_gps_mpu_left.csv   | Inertial sensor data on the left side of the vehicle, combined with GPS data.                                          |
-| dataset_gps_mpu_right.csv  | Inertial sensor data on the right side of the vehicle, combined with GPS data.                                           |
-| dataset_labels.csv         | Data class labels for each sample data in the dataset.                               |
-| dataset_mpu_left.csv       | Inertial sensor data on the left side of the vehicle.                                                               |
-| dataset_mpu_right.csv      | Inertial sensor data on the right side of the vehicle.                                                              |
+| dataset_gps_mpu_right.csv  | Inertial sensor data on the right side of the vehicle, combined with GPS data.                                         |
+| dataset_labels.csv         | Data class labels for each sample data in the dataset (for both sides).                                                |
+| dataset_mpu_left.csv       | Inertial sensor data on the left side of the vehicle.                                                                  |
+| dataset_mpu_right.csv      | Inertial sensor data on the right side of the vehicle.                                                                 |
 | dataset_settings_left.csv  | Settings of the inertial sensors placed on the left side of the vehicle. Includes measurement range, resolution, etc.  |
 | dataset_settings_right.csv | Settings of the inertial sensors placed on the right side of the vehicle. Includes measurement range, resolution, etc. |
 | map.html                   | Map of the data collection location.                                                                                   |
-| video_dataset_left.mp4     | Video with data plot of inertial sensors signals and speed.                                                        |
-| video_environment.mp4      | Environment video.                                                                                                         |
+| video_dataset_left.mp4     | Video with data plotted from inertial sensors and speed, sampled on the left side of the vehicle.                      |
+| video_dataset_right.mp4    | Video with data plotted from inertial sensors and speed, sampled on the right side of the vehicle.                     |
+| video_environment.mp4      | External environment video.                                                                                            |
+| video_environment_dataset_left.mp4      | Videos side by side from video_environment.mp4 and video_dataset_left.mp4                                 |
+| video_environment_dataset_right.mp4     | Videos side by side from video_environment.mp4 and video_dataset_ight.mp4                                 |
 
-Below, an example of an environment video side by side with the video of data ploted.
+Below, the playlist of videos side by side on youtube (click on the image or [here](https://www.youtube.com/playlist?list=PLTG6ZC9RiP1dxQk5Wf6UiNxwRyGv-keY7)).
 
-<div align="center">
-    <img src="./IMG/video.png" alt="Sensor Hardware Network" align="center"/>
-</div>
+[![PVS Playlist](./IMG/video.png)](https://www.youtube.com/playlist?list=PLTG6ZC9RiP1dxQk5Wf6UiNxwRyGv-keY7 "Play PVS Playlist")
 
 ## Data Class Labels
 
@@ -123,14 +124,36 @@ The data classes available in the **dataset_labels.csv** file were built in one-
 
 |    Description   |    Label    |
 |:----------------:|:-----------:|
-| Dirt Road        | land        |
-| Cobblestone Road | cobblestone |
-| Asphalt Road     | asphalt     |
+| Dirt Road        | dirt_road        |
+| Cobblestone Road | cobblestone_road |
+| Asphalt Road     | asphalt_road     |
+
+<br>
+
+|    Description   |    Label    |
+|:----------------:|:-----------:|
+| Paved Road       | paved_road   |
+| Unpaved Road     | unpaved_road |
+
 
 <br>
 
 <div align="center">
-    <img src="./IMG/surface_type.png" alt="Sensor Hardware Network" align="center"/>
+    <img src="./IMG/surface_type.png" alt="Road Surface Type" align="center"/>
+</div>
+
+- **Speed Bump**
+
+|    Description   |    Label    |
+|:----------------:|:-----------:|
+| No Speed Bump        | no_speed_bump        |
+| Regular Speed Bump   | regular_speed_bump   |
+| Irregular Speed Bump | irregular_speed_bump |
+
+<br>
+
+<div align="center">
+    <img src="./IMG/speed_bump_type.png" alt="Speed Bump" align="center"/>
 </div>
 
 ## Aplications
