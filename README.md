@@ -37,10 +37,10 @@ For the development of this project, we collect nine datasets with contextual va
 
 The project is active and we are currently developing new models for new perception patterns recognition. Below are described the research progress. Published articles can also be found on the project's page at [Research Gate](https://www.researchgate.net/project/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence).
 
-- [Vehicular Perception Based on Inertial Sensing: a Systematic Review](https://www.researchgate.net/publication/328175534_Vehicular_Perception_and_Proprioception_Based_on_Inertial_Sensing_a_Systematic_Review)
+- [Vehicular Perception Based on Inertial Sensing: a Systematic Review](Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review)
     - In this article, we describe the state-of-the-art of vehicle perception produced through inertial sensors and Artificial Intelligence techniques. Through a literature review we compiled the data extracted from the selected studies and described each paper in detail and in chronological order of publication. 
 
-- [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods]()
+- [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods)
     - In this article, we present a structured literature mapping of the state-of-the-art of vehicle perception produced through inertial sensors and Artificial Intelligence techniques. We present a structured, approach and technologies-oriented panorama of this field.
 
 - [Road Surface Type Classification Based on Inertial Sensors and Machine Learning: A Comparison Between Classical and Deep Machine Learning Approaches For Multi-Contextual Real-world Scenarios](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1)
