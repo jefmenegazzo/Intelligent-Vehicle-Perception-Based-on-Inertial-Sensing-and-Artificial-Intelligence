@@ -37,15 +37,15 @@ For the development of this project, we collect nine datasets using GPS, camera,
 
 The project is active and we are currently developing new models for new perception pattern recognition. Below are described the research progress, in chronological order of research development. At the [Research Gate](https://www.researchgate.net/project/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence) you can also find the published scientific papers and request a full text for free.
 
-> #### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](Vehicular Perception Based on Inertial Sensing - a Systematic Review/Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review.md)
+> #### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review/Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review.md)
 >
 > In this paper, we describe the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. Through a literature review, we compiled the data extracted from the selected studies and described each paper in detail and chronological order of publication.
-> **[Access here](Vehicular Perception Based on Inertial Sensing - a Systematic Review/Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review.md)**
+> **[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review/Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review.md)**
 
-> #### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](Vehicular Perception Based on Inertial Sensing - A Structured Mapping of Approaches and Methods/Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods.md)
+> #### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods/Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods.md)
 >
 > In this paper, we present a structured literature mapping of the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. We describe a structured, approach, and technologies-oriented panorama of this field.
-> **[Access here](Vehicular Perception Based on Inertial Sensing - A Structured Mapping of Approaches and Methods/Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods.md)**
+> **[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods/Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods.md)**
 
 > #### [Road Surface Type Classification Based on Inertial Sensors and Machine Learning: A Comparison Between Classical and Deep Machine Learning Approaches For Multi-Contextual Real-world Scenarios](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1)
 > In this research, we developed models for the road surface type classification, classifying between segments of dirt, cobblestone, and asphalt roads. We applied classical techniques of K-Means Clustering (KMC), Support Vector Machine (SVM), and K-Nearest Neighbors (KNN); and Deep Learning techniques based on Convolutional Neural Network (CNN), Long Short-Term Memory Network (LSTM), and hybrid LSTM-CNN. We analyzed in the time domain the data collected near and below the suspension, in addition to the impact of the data window size. We also evaluate the generability of model learning for unknown contexts, such as an unknown car, driver, or environment.
