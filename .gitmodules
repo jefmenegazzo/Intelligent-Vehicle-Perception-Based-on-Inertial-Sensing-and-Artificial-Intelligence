@@ -13,3 +13,6 @@ url=https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classifi
 [submodule "Multi-Contextual and Multi-Aspect Analysis for Road Surface Type Classification Through Inertial Sensors and Deep Learning"]
 	path = Multi-Contextual and Multi-Aspect Analysis for Road Surface Type Classification Through Inertial Sensors and Deep Learning
 url=https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-2.git
+[submodule "Speed Bump Detection Through Inertial Sensors and Deep Learning"]
+	path = Speed Bump Detection Through Inertial Sensors and Deep Learning
+	url = https://github.com/Intelligent-Vehicle-Perception/Speed-Bump-Detection.git
