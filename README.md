@@ -37,14 +37,14 @@ For the development of this project, we collect nine datasets using GPS, camera,
 
 The project is active and we are currently developing new models for new perception pattern recognition. Below are described the research progress, in chronological order of research development. At the [Research Gate](https://www.researchgate.net/project/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence) you can also find the published scientific papers and request a full text for free.
 
-#### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review/Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review.md)
+#### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)
 In this paper, we describe the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. Through a literature review, we compiled the data extracted from the selected studies and described each paper in detail and chronological order of publication.<br>
-**[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review/Vehicular-Perception-Based-on-Inertial-Sensing-A-Systematic-Review.md)**
+**[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)**
 <br>
 
-#### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods/Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods.md)
+#### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)
 In this paper, we present a structured literature mapping of the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. We describe a structured, approach, and technologies-oriented panorama of this field.<br>
-**[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods/Vehicular-Perception-Based-on-Inertial-Sensing-A-Structured-Mapping-of-Approaches-and-Methods.md)**
+**[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)**
 <br>
 
 #### [Road Surface Type Classification Based on Inertial Sensors and Machine Learning: A Comparison Between Classical and Deep Machine Learning Approaches For Multi-Contextual Real-world Scenarios](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1)
@@ -63,7 +63,7 @@ In this research, we developed models for the speed bump detection in segments o
 
 ## Passive Vehicular Sensors Dataset (PVS)
 
-The nine datasets collected are available for download at [Kaggle](https://www.kaggle.com/jefmenegazzo/datasets) and [Arquivos UFSC](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
+The nine datasets collected are available for download at [Kaggle](https://www.kaggle.com/jefmenegazzo/pvs-passive-vehicular-sensors-datasets) and [Arquivos UFSC](https://arquivos.ufsc.br/d/55ee83c2c9d647eaa252/?p=/&mode=grid). To collect and preprocess the raw data that resulted in the PVS datasets, the following projects were used:
 
 - [MPU-9250 Sensors Data Collect](https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect)
     - Source-code used to manipulate the sensors in the data collection.
