@@ -77,7 +77,7 @@ The nine datasets collected are available for download at [Kaggle](https://www.k
 For data collection, we use several passive approach sensors, detailed in the following table:
 
 |      Hardware     |     Sensor    |                   Data                  | Sampling Rate |
-|:-----------------:|:-------------:|:---------------------------------------:|:-------------:|
+|:-----------------|:-------------|:---------------------------------------|:-------------|
 | HP Webcam HD-4110 | Camera        | 720p Video                              |     30 Hz     |
 | Xiaomi Mi 8       | GPS           | Speed in m/s, latitude, longitude, etc. |      1 Hz     |
 | MPU-9250          | Accelerometer | 3-axis acceleration in m/s²             |     100 Hz    |
@@ -94,7 +94,7 @@ All the hardware equipment was attached to the vehicle as shown in the next figu
 The data were produced in three different vehicles, with three different drivers, in three different environments in which there are three different surface types, in addition to variations in conservation state and presence of obstacles and anomalies, such as speed bumps and potholes. The following table details the data collection contexts.
 
 | DataSet |       Vehicle      |  Driver  |  Scenario  | Distance |
-|:-------:|:------------------:|:--------:|:----------:|:--------:|
+|:-------|:------------------|:--------|:----------|:--------|
 | PVS 1   | Volkswagen Saveiro | Driver 1 | Scenario 1 | 13.81 km |
 | PVS 2   | Volkswagen Saveiro | Driver 1 | Scenario 2 | 11.62 km |
 | PVS 3   | Volkswagen Saveiro | Driver 1 | Scenario 3 | 10.72 km |
@@ -108,7 +108,7 @@ The data were produced in three different vehicles, with three different drivers
 Each dataset consists of the following files:
 
 | File                       | Description                                                                                                            |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------|
+|:----------------------------|:------------------------------------------------------------------------------------------------------------------------|
 | dataset_gps.csv            | GPS data, including latitude, longitude, altitude, speed, accuracy, etc.                                               |
 | dataset_gps_mpu_left.csv   | Inertial sensor data on the left side of the vehicle, combined with GPS data.                                          |
 | dataset_gps_mpu_right.csv  | Inertial sensor data on the right side of the vehicle, combined with GPS data.                                         |
@@ -117,12 +117,12 @@ Each dataset consists of the following files:
 | dataset_mpu_right.csv      | Inertial sensor data on the right side of the vehicle.                                                                 |
 | dataset_settings_left.csv  | Settings of the inertial sensors placed on the left side of the vehicle. Includes measurement range, resolution, etc.  |
 | dataset_settings_right.csv | Settings of the inertial sensors placed on the right side of the vehicle. Includes measurement range, resolution, etc. |
-| map.html                   | Map of the data collection location.                                                                                   |
+| map.html                   | Interactive maps with data classes.                                                                                  |
 | video_dataset_left.mp4     | Video with data plotted from inertial sensors and speed, sampled on the left side of the vehicle.                      |
 | video_dataset_right.mp4    | Video with data plotted from inertial sensors and speed, sampled on the right side of the vehicle.                     |
 | video_environment.mp4      | External environment video.                                                                                            |
 | video_environment_dataset_left.mp4      | Videos side by side from video_environment.mp4 and video_dataset_left.mp4                                 |
-| video_environment_dataset_right.mp4     | Videos side by side from video_environment.mp4 and video_dataset_ight.mp4                                 |
+| video_environment_dataset_right.mp4     | Videos side by side from video_environment.mp4 and video_dataset_right.mp4                                 |
 
 You can find the playlist of videos side by side on [Youtube](https://www.youtube.com/playlist?list=PLTG6ZC9RiP1dxQk5Wf6UiNxwRyGv-keY7).
 
@@ -134,33 +134,59 @@ You can find the playlist of videos side by side on [Youtube](https://www.youtub
 
 ## Data Classes
 
-The data classes are available in the **dataset_labels.csv** file were built in one-hot-encoded form. We are currently developing new data class labels. The following are already available:
+The data classes are available in the **dataset_labels.csv** file were built in one-hot-encoded form. The available labs are detailed below. In the folder **Best Models** is the Jupyter Notebook **PVS - Data Exploration.ipynb** in which you can explore the data through maps and tables with quantitative samples and distribution of data classes. **[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Best%20Models)**.
 
-- **Road Surface Type Labels**
+#### **Road Surface Type Labels**
 
 |    Description   |    Label    |
-|:----------------:|:-----------:|
+|:----------------|:-----------|
 | Dirt Road        | dirt_road        |
 | Cobblestone Road | cobblestone_road |
 | Asphalt Road     | asphalt_road     |
 
 <br>
 
+<div align="center">
+    <img src="./img/road_surface_types.png" alt="Road Surface Types" align="center"/>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="./img/road_surface_types_real.png" alt="Road Surface Types" align="center"/>
+</div>
+
+#### **Road Surface Condition**
+
 |    Description   |    Label    |
-|:----------------:|:-----------:|
+|:----------------|:-----------|
 | Paved Road       | paved_road   |
 | Unpaved Road     | unpaved_road |
 
 <br>
 
 <div align="center">
-    <img src="./img/road_surface_types.png" alt="Road Surface Type" align="center"/>
+    <img src="./img/road_surface_conditions.png" alt="Road Surface Conditions" align="center"/>
 </div>
 
-- **Speed Bump**
+#### **Road Roughness Condition**
 
 |    Description   |    Label    |
-|:----------------:|:-----------:|
+|:----------------|:-----------|
+| Good Road        | good_road_left, good_road_right        |
+| Regular Road | regular_road_left, regular_road_right |
+| Bad Road     | bad_road_left, bad_road_right     |
+
+<br>
+
+<div align="center">
+    <img src="./img/road_roughness_conditions.png" alt="Road Roughness Conditions" align="center"/>
+</div>
+
+#### **Speed Bump Types**
+
+|    Description   |    Label    |
+|:----------------|:-----------|
 | No Speed Bump        | no_speed_bump        |
 | Speed Bump in Asphalt   | speed_bump_asphalt   |
 | Speed Bump in Cobblestone | speed_bump_cobblestone |
@@ -168,7 +194,13 @@ The data classes are available in the **dataset_labels.csv** file were built in 
 <br>
 
 <div align="center">
-    <img src="./img/speed_bump_types.png" alt="Speed Bump" align="center"/>
+    <img src="./img/speed_bump_types.png" alt="Road Roughness Conditions" align="center"/>
+</div>
+
+<br>
+
+<div align="center">
+    <img src="./img/speed_bump_types_real.png" alt="Speed Bump Types" align="center"/>
 </div>
 
 ## Best Models
