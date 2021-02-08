@@ -37,14 +37,16 @@ For the development of this project, we collect nine datasets using GPS, camera,
 
 The project is active and we are currently developing new models for new perception pattern recognition. Below are described the research progress, in chronological order of research development. At the [Research Gate](https://www.researchgate.net/project/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence) you can also find the published scientific papers and request a full text for free.
 
-#### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)
+## Research in English
+
+#### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)
 In this paper, we describe the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. Through a literature review, we compiled the data extracted from the selected studies and described each paper in detail and chronological order of publication.<br>
-**[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)**
+**[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)**
 <br>
 
-#### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)
+#### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)
 In this paper, we present a structured literature mapping of the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. We describe a structured, approach, and technologies-oriented panorama of this field.<br>
-**[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)**
+**[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)**
 <br>
 
 #### [Road Surface Type Classification Based on Inertial Sensors and Machine Learning: A Comparison Between Classical and Deep Machine Learning Approaches For Multi-Contextual Real-world Scenarios](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1)
@@ -60,6 +62,26 @@ In this research, we developed models for the road surface type classification, 
 #### [Speed Bump Detection Through Inertial Sensors and Deep Learning in a Multi-Contextual Analysis](https://github.com/Intelligent-Vehicle-Perception/Speed-Bump-Detection)
 In this research, we developed models for the speed bump detection in segments of cobblestone and asphalt pavements. We applied Deep Learning techniques based on Convolutional Neural Network (CNN), Gated Recurrent Unit (GRU), Long Short-Term Memory Network (LSTM), Convolutional Neural Network Long Short-Term Memory (CNN-LSTM), and Convolutional Long Short-Term Memory (ConvLSTM). We analyzed some aspects, such as the influence of the vehicle data collection placement and the data window size. We also evaluate the generability of model learning for unknown contexts, such as an unknown car, driver, or environment.<br>
 **[Access here](https://github.com/Intelligent-Vehicle-Perception/Speed-Bump-Detection)** 
+<br>
+
+#### [Road Roughness Condition Through Inertial Sensors and Deep Learning](https://github.com/Intelligent-Vehicle-Perception/Road-Roughness-Condition)
+In this research, we developed models to classify the road roughness condition in three quality levels: bad, regular and good road. We applied Deep Learning techniques based on Convolutional Neural Network (CNN), Gated Recurrent Unit (GRU), Long Short-Term Memory Network (LSTM), Convolutional Neural Network Long Short-Term Memory (CNN-LSTM), and Convolutional Long Short-Term Memory (ConvLSTM). We analyzed some aspects, such as the influence of the vehicle data collection placement and the data window size. We also evaluate the generability of model learning for unknown contexts, such as an unknown car, driver, or environment.<br>
+**[Access here](https://github.com/Intelligent-Vehicle-Perception/Road-Roughness-Condition)**
+<br>
+
+## Research in Brazilian Portuguese
+
+#### [Percepção Veicular Adaptativa Baseada em Sensoriamento Inercial e Deep Learning](Percepção%20Veicular%20Adaptativa%20Baseada%20em%20Sensoriamento%20Inercial%20e%20Deep%20Learning)
+Master's thesis. **[Access here](Percepção%20Veicular%20Adaptativa%20Baseada%20em%20Sensoriamento%20Inercial%20e%20Deep%20Learning)**
+<br>
+
+#### [Classificacão de Qualidade de Superfície de Pista Baseado em Sensoriamento Inercial e Logica Fuzzy](Classificacão%20de%20Qualidade%20de%20Superfície%20de%20Pista%20Baseado%20em%20Sensoriamento%20Inercial%20e%20Logica%20Fuzzy)
+Conference paper. **[Access here](Classificacão%20de%20Qualidade%20de%20Superfície%20de%20Pista%20Baseado%20em%20Sensoriamento%20Inercial%20e%20Logica%20Fuzzy)**
+<br>
+
+#### [ADAPD - Sensor Adaptativo de Tempo Real para Buracos em Rodovias Baseado em Vibração](ADAPD%20-%20Sensor%20Adaptativo%20de%20Tempo%20Real%20para%20Buracos%20em%20Rodovias%20Baseado%20em%20Vibração)
+Conference paper. **[Access here](ADAPD%20-%20Sensor%20Adaptativo%20de%20Tempo%20Real%20para%20Buracos%20em%20Rodovias%20Baseado%20em%20Vibração)**
+<br>
 
 ## Passive Vehicular Sensors Dataset (PVS)
 
@@ -128,7 +150,7 @@ You can find the playlist of videos side by side on [Youtube](https://www.youtub
 
 <div align="center">
     <a href="https://www.youtube.com/playlist?list=PLTG6ZC9RiP1dxQk5Wf6UiNxwRyGv-keY7">
-        <img src="./img/video.png" alt="Play PVS Playlist" align="center"/>
+        <img src="./img/video.gif" alt="Play PVS Playlist" align="center"/>
     </a>
 </div>
 
@@ -205,7 +227,12 @@ The data classes are available in the **dataset_labels.csv** file were built in 
 
 ## Best Models
 
-Soon we will provide the best models available in a simplified way, ready for end-use in any application.
+For those who want to use the best models produced in this research in a simplified way, they are available in the **Best Models** folder, [access here](Best-Models). We provide the following best models:
+
+- PVS - Data Exploration
+- Road Surface Type Classification
+- Road Roughness Condition Classification
+- Speed Bump Classification
 
 ## Aplications
 

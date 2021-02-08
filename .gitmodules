@@ -16,3 +16,9 @@ url=https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classifi
 [submodule "Speed Bump Detection Through Inertial Sensors and Deep Learning"]
 	path = Speed Bump Detection Through Inertial Sensors and Deep Learning
 	url = https://github.com/Intelligent-Vehicle-Perception/Speed-Bump-Detection.git
+[submodule "Road Roughness Condition Through Inertial Sensors and Deep Learning"]
+	path = Road Roughness Condition Through Inertial Sensors and Deep Learning
+	url = https://github.com/Intelligent-Vehicle-Perception/Road-Roughness-Condition.git
+[submodule "Road-Roughness-Condition"]
+	path = Road-Roughness-Condition
+	url = https://github.com/Intelligent-Vehicle-Perception/Road-Roughness-Condition
