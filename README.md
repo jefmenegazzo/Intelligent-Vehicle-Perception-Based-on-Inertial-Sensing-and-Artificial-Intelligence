@@ -39,14 +39,14 @@ The project is active and we are currently developing new models for new percept
 
 ## Research in English
 
-#### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)
+#### [Vehicular Perception Based on Inertial Sensing: a Systematic Review](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)
 In this paper, we describe the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. Through a literature review, we compiled the data extracted from the selected studies and described each paper in detail and chronological order of publication.<br>
-**[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)**
+**[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20a%20Systematic%20Review)**
 <br>
 
-#### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)
+#### [Vehicular Perception Based on Inertial Sensing: A Structured Mapping of Approaches and Methods](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)
 In this paper, we present a structured literature mapping of the state-of-the-art vehicle perception produced through inertial sensors and Artificial Intelligence techniques. We describe a structured, approach, and technologies-oriented panorama of this field.<br>
-**[Access here](Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)**
+**[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Vehicular%20Perception%20Based%20on%20Inertial%20Sensing%20-%20A%20Structured%20Mapping%20of%20Approaches%20and%20Methods)**
 <br>
 
 #### [Road Surface Type Classification Based on Inertial Sensors and Machine Learning: A Comparison Between Classical and Deep Machine Learning Approaches For Multi-Contextual Real-world Scenarios](https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classification-1)
@@ -71,16 +71,16 @@ In this research, we developed models to classify the road roughness condition i
 
 ## Research in Brazilian Portuguese
 
-#### [Percepção Veicular Adaptativa Baseada em Sensoriamento Inercial e Deep Learning](Percepção%20Veicular%20Adaptativa%20Baseada%20em%20Sensoriamento%20Inercial%20e%20Deep%20Learning)
-Master's thesis. **[Access here](Percepção%20Veicular%20Adaptativa%20Baseada%20em%20Sensoriamento%20Inercial%20e%20Deep%20Learning)**
+#### [Percepção Veicular Adaptativa Baseada em Sensoriamento Inercial e Deep Learning](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Percepção%20Veicular%20Adaptativa%20Baseada%20em%20Sensoriamento%20Inercial%20e%20Deep%20Learning)
+Master's thesis. **[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Percepção%20Veicular%20Adaptativa%20Baseada%20em%20Sensoriamento%20Inercial%20e%20Deep%20Learning)**
 <br>
 
-#### [Classificacão de Qualidade de Superfície de Pista Baseado em Sensoriamento Inercial e Logica Fuzzy](Classificacão%20de%20Qualidade%20de%20Superfície%20de%20Pista%20Baseado%20em%20Sensoriamento%20Inercial%20e%20Logica%20Fuzzy)
-Conference paper. **[Access here](Classificacão%20de%20Qualidade%20de%20Superfície%20de%20Pista%20Baseado%20em%20Sensoriamento%20Inercial%20e%20Logica%20Fuzzy)**
+#### [Classificacão de Qualidade de Superfície de Pista Baseado em Sensoriamento Inercial e Logica Fuzzy](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Classificacão%20de%20Qualidade%20de%20Superfície%20de%20Pista%20Baseado%20em%20Sensoriamento%20Inercial%20e%20Logica%20Fuzzy)
+Conference paper. **[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Classificacão%20de%20Qualidade%20de%20Superfície%20de%20Pista%20Baseado%20em%20Sensoriamento%20Inercial%20e%20Logica%20Fuzzy)**
 <br>
 
-#### [ADAPD - Sensor Adaptativo de Tempo Real para Buracos em Rodovias Baseado em Vibração](ADAPD%20-%20Sensor%20Adaptativo%20de%20Tempo%20Real%20para%20Buracos%20em%20Rodovias%20Baseado%20em%20Vibração)
-Conference paper. **[Access here](ADAPD%20-%20Sensor%20Adaptativo%20de%20Tempo%20Real%20para%20Buracos%20em%20Rodovias%20Baseado%20em%20Vibração)**
+#### [ADAPD - Sensor Adaptativo de Tempo Real para Buracos em Rodovias Baseado em Vibração](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/ADAPD%20-%20Sensor%20Adaptativo%20de%20Tempo%20Real%20para%20Buracos%20em%20Rodovias%20Baseado%20em%20Vibração)
+Conference paper. **[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/ADAPD%20-%20Sensor%20Adaptativo%20de%20Tempo%20Real%20para%20Buracos%20em%20Rodovias%20Baseado%20em%20Vibração)**
 <br>
 
 ## Passive Vehicular Sensors Dataset (PVS)
@@ -227,7 +227,7 @@ The data classes are available in the **dataset_labels.csv** file were built in 
 
 ## Best Models
 
-For those who want to use the best models produced in this research in a simplified way, they are available in the **Best Models** folder, [access here](Best-Models). We provide the following best models:
+For those who want to use the best models produced in this research in a simplified way, they are available in the **Best Models** folder, [access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Best%20Models). We provide the following best models:
 
 - PVS - Data Exploration
 - Road Surface Type Classification
