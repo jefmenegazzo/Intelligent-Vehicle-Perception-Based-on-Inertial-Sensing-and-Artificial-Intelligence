@@ -19,6 +19,6 @@ url=https://github.com/Intelligent-Vehicle-Perception/Road-Surface-Type-Classifi
 [submodule "Road Roughness Condition Through Inertial Sensors and Deep Learning"]
 	path = Road Roughness Condition Through Inertial Sensors and Deep Learning
 	url = https://github.com/Intelligent-Vehicle-Perception/Road-Roughness-Condition.git
-[submodule "Road-Roughness-Condition"]
-	path = Road-Roughness-Condition
+[submodule "Road Roughness Condition Through Inertial Sensors and Deep Learning"]
+	path = Road Roughness Condition Through Inertial Sensors and Deep Learning
 	url = https://github.com/Intelligent-Vehicle-Perception/Road-Roughness-Condition
