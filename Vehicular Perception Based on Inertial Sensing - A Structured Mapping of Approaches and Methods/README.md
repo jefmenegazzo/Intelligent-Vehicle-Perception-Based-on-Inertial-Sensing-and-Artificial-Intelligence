@@ -21,14 +21,20 @@ Menegazzo, J., von Wangenheim, A. Vehicular Perception Based on Inertial Sensing
 ```
 
 ```bibtex
-@article{menegazzo2020vehicular,
-  title={Vehicular perception based on inertial sensing: A structured mapping of approaches and methods},
-  author={Menegazzo, Jeferson and von Wangenheim, Aldo},
-  journal={SN Computer Science},
-  volume={1},
-  number={5},
-  pages={1--24},
-  year={2020},
-  publisher={Springer}
+@article{menegazzo_vehicular_2020,
+	title = {Vehicular {Perception} {Based} on {Inertial} {Sensing}: {A} {Structured} {Mapping} of {Approaches} and {Methods}},
+	volume = {1},
+	issn = {2661-8907},
+	shorttitle = {Vehicular {Perception} {Based} on {Inertial} {Sensing}},
+	url = {https://doi.org/10.1007/s42979-020-00275-z},
+	doi = {10.1007/s42979-020-00275-z},
+	language = {en},
+	number = {5},
+	urldate = {2021-02-18},
+	journal = {SN Computer Science},
+	author = {Menegazzo, Jeferson and von Wangenheim, Aldo},
+	month = aug,
+	year = {2020},
+	pages = {255}
 }
 ```
