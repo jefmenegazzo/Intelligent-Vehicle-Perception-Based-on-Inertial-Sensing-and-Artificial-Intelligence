@@ -156,7 +156,7 @@ You can find the playlist of videos side by side on [Youtube](https://www.youtub
 
 ## Data Classes
 
-The data classes are available in the **dataset_labels.csv** file were built in one-hot-encoded form. The available labs are detailed below. In the folder **Best Models** is the Jupyter Notebook **PVS - Data Exploration.ipynb** in which you can explore the data through maps and tables with quantitative samples and distribution of data classes. **[Access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Best%20Models)**.
+The data classes are available in the **dataset_labels.csv** file were built in one-hot-encoded form. The available labs are detailed below. In the folder **Best Models** is the Jupyter Notebook **PVS - Data Exploration.ipynb** in which you can explore the data through maps and tables with quantitative samples and distribution of data classes. **[Access here](https://github.com/Intelligent-Vehicle-Perception/Best-Models)**.
 
 #### **Road Surface Type Labels**
 
@@ -227,7 +227,7 @@ The data classes are available in the **dataset_labels.csv** file were built in 
 
 ## Best Models
 
-For those who want to use the best models produced in this research in a simplified way, they are available in the **Best Models** folder, [access here](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/tree/master/Best%20Models). We provide the following best models:
+For those who want to use the best models produced in this research in a simplified way, they are available in the **Best Models** folder, [access here](https://github.com/Intelligent-Vehicle-Perception/Best-Models). We provide the following best models:
 
 - PVS - Data Exploration
 - Road Surface Type Classification
