@@ -8,7 +8,7 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://img.shields.io/badge/Project_Status-Active-green?style=flat-square&color=success)](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square&color=success)](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence)
-[![GitHub](https://img.shields.io/github/license/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence?style=flat-square&color=success)](LICENSE) 
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=flat-square&color=success)](LICENSE.txt)
 
 [![GitHub issues](https://img.shields.io/github/issues/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence?style=flat-square)](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence?style=flat-square&color=success)](https://github.com/Intelligent-Vehicle-Perception/Intelligent-Vehicle-Perception-Based-on-Inertial-Sensing-and-Artificial-Intelligence/graphs/contributors/)
@@ -271,4 +271,4 @@ J. Menegazzo and A. von Wangenheim, "Multi-Contextual and Multi-Aspect Analysis 
 
 ## License
 
-This project is under MIT License (MIT). Please see [License File](LICENSE) for more information.
+This project is under Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). Please see [License File](LICENSE.txt) for more information.
